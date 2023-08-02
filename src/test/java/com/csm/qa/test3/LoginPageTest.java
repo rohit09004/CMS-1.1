@@ -159,11 +159,7 @@ public void Test1() throws EncryptedDocumentException, InterruptedException, IOE
 		    Reporter.log("02.Inserting 'PO No.' field ");
 		    reportLog("02.Inserting 'PO No.' field ");
 
-//for failing test
-		     //driver.findElement(By.xpath("wggsjhwvjgvjgdevwgjv")).click();
-		    //reportLog("02.Inserting 'PO No.' fielD  from PO2");
 
-		    
 		    //Inspection and clicking of "Company Code" field   	    
 		    WebDriverWait companyCodeFieldOptions1 = new WebDriverWait(driver, Duration.ofMillis(8000));
 		    companyCodeFieldOptions1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/section[2]/div[1]/form/div[3]/div/div/div/div[6]/div/div/div[1]/div/table/tbody/tr[1]/td[3]/div/div/div/div/input")));
