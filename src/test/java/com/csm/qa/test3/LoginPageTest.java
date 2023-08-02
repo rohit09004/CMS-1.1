@@ -159,9 +159,6 @@ public void Test1() throws EncryptedDocumentException, InterruptedException, IOE
 		    Reporter.log("02.Inserting 'PO No.' field ");
 		    reportLog("02.Inserting 'PO No.' field ");
 
-//for failing test
-		     //driver.findElement(By.xpath("wggsjhwvjgvjgdevwgjv")).click();
-		    //reportLog("02.Inserting 'PO No.' fielD  from PO2");
 
 		    
 		    //Inspection and clicking of "Company Code" field   	    
